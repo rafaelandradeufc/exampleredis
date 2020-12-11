@@ -29,7 +29,11 @@ docker exec -it redis-tcc sh
 ```
 KEYS * 
 
+SET "key" value
+
 GET "key"
+
+DEL "key"
 
 EXISTS key::value
 
