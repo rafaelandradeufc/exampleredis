@@ -28,7 +28,7 @@ public class ClientService {
 		return clientRepository.findById(id).orElseThrow(() -> new EntityNotFoundException("Id not found: " + id));
 	}
 
-	@CacheEvict(cacheNames = "Company", allEntries = true)
+	@CacheEvict(cacheNames = "Client", allEntries = true)
 	public Client add(final Client client) {
 		return clientRepository.save(client);
 	}
