@@ -24,7 +24,7 @@ docker exec -it redis-tcc sh
 
 ```
 
-### Comandos do CLI
+### Comandos do REDIS CLI
 
 ```
 KEYS * 
