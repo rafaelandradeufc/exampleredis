@@ -4,14 +4,14 @@
 ### Iniciando Container MYSQL 
 
 ```
-sudo docker run --name mysql-tcc -e MYSQL_ROOT_PASSWORD=root -p 3306:3306 -d mysql:5.7
+docker run --name mysql-tcc -e MYSQL_ROOT_PASSWORD=root -p 3306:3306 -d mysql:5.7
 
 ```
 
 ### Iniciando Container REDIS
 
 ```
-sudo docker run --name redis-tcc -p 6379:6379 -d redis:5.0.3 redis-server --appendonly yes
+docker run --name redis-tcc -p 6379:6379 -d redis:5.0.3 redis-server --appendonly yes
 ```
 
 
