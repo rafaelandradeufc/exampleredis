@@ -46,4 +46,6 @@ EXISTS key::value
 
 SELECT index_db
 
+CONFIG GET *
+
 ```
