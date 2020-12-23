@@ -44,4 +44,6 @@ DEL "key"
 
 EXISTS key::value
 
+SELECT index_db
+
 ```
